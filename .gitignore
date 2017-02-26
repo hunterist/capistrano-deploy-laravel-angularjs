@@ -1,0 +1,6 @@
+# Env files
+backend/.env
+frontend/.env
+
+# Log
+log/*

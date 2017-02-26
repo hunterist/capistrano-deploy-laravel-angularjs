@@ -1,0 +1,10 @@
+# frozen_string_literal: true
+source "https://rubygems.org"
+
+group :development do
+  	gem "capistrano", ">=3.0.0"
+  	gem "capistrano-env-config"
+    gem "capistrano-multiconfig"
+end
+
+# gem "rails"
