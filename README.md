@@ -11,7 +11,7 @@ Requirements
 
 Tool        | Version      | Purpose
 ----------- | ------------ | ----------------------------------------------------
-Capistrano  | 3.7.2        | Deploy backend+frontend source code
+Capistrano  | 3.6.1        | Deploy backend+frontend source code
 NodeJS      | 4.6.1        | Frontend runtime environment
 Gulp        | 3.9.1        | Build frontend
 
@@ -29,12 +29,19 @@ Cachetool   | master       | On the backend servers, you must install [cachetool
 Tool        | Version      | Purpose
 ----------- | ------------ | ----------------------------------------------------
 
-
+**Note:**
+If you want to upgrade capistrano to version 3.7.x, please follow at https://github.com/capistrano/capistrano/blob/master/UPGRADING-3.7.md
 
 
 Getting Started 
 --------------------------------------------------------------------------------
 
+Rename .env.example to .env in backend & frontend folder.
+
+```sh
+$ mv backend/.env.example .env
+$ mv frontend/.env.example .env
+```
 
 Check backend commands:
 

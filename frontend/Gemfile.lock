@@ -29,7 +29,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  capistrano (>= 3.0.0)
+  capistrano (= 3.6.1)
   capistrano-env-config
   capistrano-multiconfig
 

@@ -2,7 +2,7 @@
 source "https://rubygems.org"
 
 group :development do
-  	gem "capistrano", ">=3.0.0"
+  	gem "capistrano", "3.6.1"
   	gem "capistrano-env-config"
     gem "capistrano-multiconfig"
 end
